@@ -20,12 +20,12 @@ jobs:
 
 ######
 
-      # Fork Chxm1023 重写规则
+    
     - name: Fork Open-AutoGLM
       run: |
         mkdir -p Open-AutoGLM-repo
         git clone -b main https://github.com/zai-org/Open-AutoGLM.git  czy_Tmp
-        cp -r czy_Tmp/* Luminous-repo
+        cp -r czy_Tmp/* Open-AutoGLM-repo
         rm -rf czy_Tmp 
     
 
